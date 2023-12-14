@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Carro</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="juegos.html">Juegos</a>
+        <a href="carrito.html">Carrito</a>
+    </nav>
+
+    <table id="carritoTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody id="carritoBody">
+            <!-- Aquí se mostrará dinámicamente el contenido del carrito con JavaScript -->
+        </tbody>
+    </table>
+
+    <div id="precioTotal"></div>
+
+    <script src="carrito.js"></script>
+</body>
+
+</html>
